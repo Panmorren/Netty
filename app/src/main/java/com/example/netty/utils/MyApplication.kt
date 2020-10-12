@@ -1,0 +1,22 @@
+package com.example.netty.utils
+
+import android.app.Application
+import com.safframework.log.L
+import com.safframework.log.LogLevel
+
+/**
+ *描述:
+ *创建者：pjh
+ *创建日期：2020/10/12
+ *UpdateUser:更新者
+ *更新时间：2020/10/12
+ */
+class MyApplication : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+
+        L.init("netty")
+        L.logLevel = LogLevel.DEBUG
+    }
+}
