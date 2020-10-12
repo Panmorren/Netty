@@ -3,8 +3,7 @@
 #### 介绍
 Netty组播框架,实现UDP通信
 ***分为Java和kotlin版本***
-
-#### 软件架构
+kotlinSDK版本 = 1.4.10
 采用netty5.0版本
 
 #### 使用说明
@@ -16,15 +15,8 @@ Netty组播框架,实现UDP通信
  NettyDiscoveryServer()
 ```
 
-#### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
+#### 联系方式
 
 1.  QQ:2311090504
 2.  邮箱：2311090504@qq.com
