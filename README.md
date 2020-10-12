@@ -1,13 +1,10 @@
 # Netty
 
 #### 介绍
-Netty组播框架,实现UDP通信
-***分为Java和kotlin版本***
-kotlinSDK版本 = 1.4.10
-采用netty5.0版本
+Netty组播框架，分为Java和kotlin版本，采用netty5.0版本
 
 #### 使用说明
-使用非常便捷
+使用非常便捷，已进行初步封装，后续会结合实际需求进行更新
 ```
 //启动客户端
  NettyDiscoveryClient().start()
